@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Hello HTML</title>
+		<link rel="stylesheet" href="/style.css">
+	</head>
+	<body>
+	<ol>
+          <li>Submit a url in the form below to receive a JSon response with the number of the shortened url.</li>
+          <li><br>Example : <code>{"original_url":"www.google.com","short_url":1}</code></li>
+          <li><br>Example shortened url: <code>[project name]/api/shorturl/6</code></li>
+
+
+        </ol>
+     <form action="/api/shorturl/new" method="post">
+      <label>Last Name :</label>
+      <input type="text" name="url" value="Enter the Url you want to shorten here"><br><br>
+      <input type="submit" value="Submit">
+    </form> 
+	</body>
+
+</html>
